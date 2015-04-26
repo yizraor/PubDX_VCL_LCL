@@ -1,0 +1,40 @@
+object FormAbout: TFormAbout
+  Left = 261
+  Height = 201
+  Top = 135
+  Width = 329
+  ActiveControl = btnOk
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'О программе'
+  ClientHeight = 201
+  ClientWidth = 329
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Position = poOwnerFormCenter
+  LCLVersion = '1.2.6.0'
+  object lblAbout: TLabel
+    Left = 8
+    Height = 154
+    Top = 8
+    Width = 313
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    AutoSize = False
+    Caption = 'Демонстрационная программа  ( DirectX 11 )'#13#10#13#10'Тема:'#13#10'  - использование Direct3D вместе с VCL / LCL'#13#10#13#10'Задействованные DirectX - API :'#13#10'  - DXGI'#13#10'  - Direct3D'#13#10'  - D3Dcompiler ( HLSL )'
+    ParentColor = False
+  end
+  object btnOk: TButton
+    Left = 128
+    Height = 25
+    Top = 168
+    Width = 81
+    Anchors = [akBottom]
+    Cancel = True
+    Caption = 'Ok'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+end
